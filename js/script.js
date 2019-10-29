@@ -4,8 +4,19 @@
 
 //GLOBAL VARIABLES
 /* global $ */
-$("button").click(function(){
+let userChoice = ""
+let computerChoice = ""
+let winner =""
+let randomNumber = 0
 
+
+
+
+
+$("button").click(function(){
+    randomNumber = Math.random();
+    let userinput= $("input").val();
+    $("#userChoice").text(userinput)
 
 });
 
