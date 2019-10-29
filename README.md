@@ -32,8 +32,8 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 - [x ] Outside of your click handler, declare the variables you'll need to track the user choice, computer choice and winner and assign them values of empty strings.
 - [ x] Outside of your click handler, declare a randomNumber variable and set it equal to 0
 - [ x] In your click handler, generate a random number and assign it to the randomNumber variable
-- [ ] In your click handler, store the input value in a variable
-- [ ] In your click handler, display user input to the screen
+- [ x] In your click handler, store the input value in a variable
+- [ x] In your click handler, display user input to the screen
 #### Wrap
 - [ ] Push your changes!
 
