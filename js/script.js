@@ -15,11 +15,32 @@ let randomNumber = 0
 
 $("button").click(function(){
     randomNumber = Math.random();
-    let userinput= $("input").val();
-    $("#userChoice").text(userinput)
+   userChoice= $("input").val();
+    $("#userChoice").text(userChoice)
 
+
+if(randomNumber >.66){
+    computerChoice = 'rock';
+
+     }
+
+
+    else if(randomNumber >.33){
+     computerChoice = 'paper';
+    }
+
+    else {
+     computerChoice = 'scissors';
+    }
+console.log(computerChoice)
+$("#computerChoice").html(computerChoice);
+
+if (userChoice === computerChoice){
+    console.log('tied!')
+    $("#result").html(" Tied!");
+
+}
 });
-
 
 
 // DOCUMENT READY FUNCTION BELOW
